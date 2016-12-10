@@ -26,7 +26,7 @@
 
             if(settings.formData){
                 for(var key in settings.formData){
-                    $form.append('<input type="hidden" name="'+key+'" value="settings.formData[key]">');
+                    $form.append('<input type="hidden" name="'+key+'" value="'+settings.formData[key]+'">');
                 }
             }
 
