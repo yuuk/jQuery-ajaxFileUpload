@@ -1,6 +1,7 @@
-# jQuery-ajaxFileUpload
+## jQuery-ajaxFileUpload
 ajaxFileUpload的jQuery版，向下兼容了IE浏览器（7、8、9），简单的实现了一下，主要用来了解文件上传原理。
-# 用法
+
+## 用法
 ```javascript
 <script type="text/javascript">
     $('.pic').ajaxFileUpload({
@@ -16,7 +17,7 @@ ajaxFileUpload的jQuery版，向下兼容了IE浏览器（7、8、9），简单�
     });
 </script>
 ```
-#参数
+## 参数
 | 参数名        | 说明               | 默认值   |
 | ------------- | ------------------ | -------- |
 | url           | 上传接口地址       | null     |
